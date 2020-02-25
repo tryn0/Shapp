@@ -1,0 +1,23 @@
+<div *ngIf="producto; else noExiste">
+	<div>
+		<span style="margin-left: 5px;"> ID: </span> <span> {{producto.id}} </span>
+  </div>
+  <div>
+    <span style="margin-left: 5px;"> Nombre: </span> <span> {{producto.name}} </span>
+  </div>
+    <div>
+    <span style="margin-left: 5px;"> Precio: </span> <span> {{producto.price}}€ </span>
+  </div>
+  <div>
+    <img style="height:50%; width: 50%; margin-left: 5px;" src="{{ producto.imageUrl }}" />
+  </div>
+</div>
+
+<ng-template #noExiste>
+  <!--Con los siguientes *ngIf al cargar un producto sale el mat-spinner, luego si hay un errorMessage (principalmente 404), la animación de cargando desaparece y aparece el texto de que el producto no existe
+  en caso de que el producto exista (se ha añadido al array productos), sale la animación de cargando y cuando cargue el producto, aparecen sus datos y la animación de cargando desaparece-->
+  <mat-spinner *ngIf="productos.length === 0 && !errorMessage"></mat-spinner>
+  <span *ngIf="!producto && errorMessage" style="margin-top: 5px; margin-left: 5px;">No existe el producto al que desea acceder, sentimos las molestias.</span>
+</ng-template>
+<br>
+<a style="margin-left: 5px;" [routerLink]="'/inicio'"> Volver a inicio </a>

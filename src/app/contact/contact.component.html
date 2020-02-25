@@ -1,0 +1,39 @@
+<!--<p style="padding: 15px;"> Esta es la página Contacto</p>-->
+
+<form [formGroup]="myForm" (ngSubmit)="saveData()" novalidate >
+    <table>
+        <tr>
+            <td><label>Nombre</label></td>
+            <td><input formControlName="nombre" type="text"></td>
+            <p *ngIf="myForm.get('nombre').touched && myForm.get('nombre').hasError('required')"> El campo nombre es obligatorio</p>
+        </tr>
+        <tr>
+            <td><label>Apellidos</label></td>
+            <td><input formControlName="apellidos" type="text"></td>
+            <p *ngIf="myForm.get('apellidos').touched && myForm.get('apellidos').hasError('required')"> El campo apellidos es obligatorio</p>
+        </tr>
+        <tr>
+            <td><label>Fecha de nacimiento</label></td>
+            <td><input formControlName="anyo" type="date"></td>
+            <p *ngIf="myForm.get('anyo').touched && myForm.get('anyo').hasError('required')"> El campo año de nacimiento es obligatorio</p>
+        </tr>
+        <tr>
+            <td><label>Población</label></td>
+            <td><input formControlName="poblacion" type="text"></td>
+            <p *ngIf="myForm.get('poblacion').touched && myForm.get('poblacion').hasError('required')"> El campo población es obligatorio</p>
+        </tr>
+        <tr>
+            <td><label>Número de teléfono</label></td>
+            <td><input formControlName="telefono" type="tel"></td>
+            <p *ngIf="myForm.get('telefono').touched && myForm.get('telefono').hasError('required')"> El número de teléfono es obligatorio</p>
+            <p *ngIf="myForm.get('telefono').hasError('maxlength')">La longitud máxima es de 9</p>
+        </tr>
+        <tr>
+            <td><label>Mensaje</label></td>
+            <td><textarea formControlName="mensaje"></textarea></td>
+            <p *ngIf="myForm.get('mensaje').touched && myForm.get('mensaje').hasError('required')"> El campo mensaje es obligatorio</p>
+        </tr>
+    </table>
+    
+    <button>Enviar</button>
+</form>
