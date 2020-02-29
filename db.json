@@ -18,7 +18,7 @@
     "name": "Volkswagen Golf GIT MKII 1990",
     "description": "Coche marca Volkswagen, modelo Golf GTI MKII, año 1990, 189.000km",
     "price": "6999.99",
-    "imageUrl": "vwgmk2.jpg",
+    "imageUrl": "assets/images/vwgmk2.jpg",
     "quantity": 2
   }, {
     "id": 4,
