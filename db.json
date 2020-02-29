@@ -4,7 +4,7 @@
     "name": "Mitsubishi Lancer Evolution IV",
     "description": "Coche marca Mitsubishi, modelo Lancer EVolution IV.",
     "price": "22599,99",
-    "imageUrl": "../../images/mleiv.jpg",
+    "imageUrl": "../images/mleiv.jpg",
     "quantity": 2
   }, {
     "id": 2,
