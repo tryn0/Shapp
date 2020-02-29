@@ -2,24 +2,24 @@
   "products": [{
     "id": 1,
     "name": "Mitsubishi Lancer Evolution IV",
-    "description": "Coche marca Mitsubishi, modelo Lancer EVolution IV.",
-    "price": "22599,99",
-    "imageUrl": "./assets/images/mleiv.jpg",
+    "description": "Coche marca Mitsubishi, modelo Lancer EVolution IV, año 1996, 246.000km.",
+    "price": "22599.99",
+    "imageUrl": "assets/images/mleiv.jpg",
     "quantity": 2
   }, {
     "id": 2,
-    "name": "Gorgeous Steel Sausages",
-    "description": "Rem est veniam et non perferendis esse incidunt nobis est. Quo rerum saepe occaecati cumque neque. Est ut voluptates tenetur officia repellat vel. Qui ea omnis in sint molestiae ut nulla qui. Rerum cum assumenda necessitatibus repellendus excepturi molestiae qui ducimus quod.",
-    "price": "419.00",
-    "imageUrl": "https://source.unsplash.com/1600x900/?product",
-    "quantity": 23224
+    "name": "BMW M3 E30 1988",
+    "description": "Coche marca BMW, modelo M3 E30, año 1988, 210.000km.",
+    "price": "49999.99",
+    "imageUrl": "assets/images/m3e30.jpg",
+    "quantity": 1
   }, {
     "id": 3,
-    "name": "Small Metal Shoes",
-    "description": "Aliquam aut quis ut repellendus officia sunt ut velit. Et rem doloremque assumenda consequatur debitis adipisci. Voluptates cum labore voluptatem eum sed esse saepe.",
-    "price": "243.00",
-    "imageUrl": "https://source.unsplash.com/1600x900/?product",
-    "quantity": 3719
+    "name": "Volkswagen Golf GIT MKII 1990",
+    "description": "Coche marca Volkswagen, modelo Golf GTI MKII, año 1990, 189.000km",
+    "price": "6999.99",
+    "imageUrl": "vwgmk2.jpg",
+    "quantity": 2
   }, {
     "id": 4,
     "name": "Intelligent Metal Chicken",
