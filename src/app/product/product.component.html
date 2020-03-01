@@ -1,3 +1,4 @@
+<!--Componente product, página de los productos, cada uno de ellos usa esta página-->
 <div *ngIf="producto; else noExiste">
 	<div>
 		<span style="margin-left: 5px;"> ID: </span> <span> {{producto.id}} </span>
@@ -5,8 +6,11 @@
   <div>
     <span style="margin-left: 5px;"> Nombre: </span> <span> {{producto.name}} </span>
   </div>
-    <div>
+  <div>
     <span style="margin-left: 5px;"> Precio: </span> <span> {{producto.price}}€ </span>
+  </div>
+  <div>
+    <span style="margin-left: 5px;"> Descripción: </span> <span> {{producto.description}} </span>
   </div>
   <div>
     <img style="height:50%; width: 50%; margin-left: 5px;" src="{{ producto.imageUrl }}" />

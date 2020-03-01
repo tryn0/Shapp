@@ -2,7 +2,7 @@
   "products": [{
     "id": 1,
     "name": "Mitsubishi Lancer Evolution IV",
-    "description": "Coche marca Mitsubishi, modelo Lancer EVolution IV, año 1996, 246.000km.",
+    "description": "Coche marca Mitsubishi, modelo Lancer Evolution IV, año 1996, 246.000km.",
     "price": "22.599,99",
     "imageUrl": "assets/images/mleiv.jpg",
     "quantity": 2

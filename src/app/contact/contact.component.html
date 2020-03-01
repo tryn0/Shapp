@@ -1,5 +1,5 @@
-<!--<p style="padding: 15px;"> Esta es la página Contacto</p>-->
-
+<!--Para ver los datos del formulario de contacto ir a la sección Console del inspector (F12), se podría usar para enviar mensaje, etc...-->
+<!--Componente contact, página de Contacto-->
 <form [formGroup]="myForm" (ngSubmit)="saveData()" novalidate >
     <table>
         <tr>
@@ -34,6 +34,5 @@
             <p *ngIf="myForm.get('mensaje').touched && myForm.get('mensaje').hasError('required')"> El campo mensaje es obligatorio</p>
         </tr>
     </table>
-    
     <button>Enviar</button>
 </form>

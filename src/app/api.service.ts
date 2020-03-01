@@ -4,6 +4,7 @@ import { Observable } from 'rxjs';
 import { throwError } from 'rxjs';
 import { retry, catchError, tap } from 'rxjs/operators';
 
+/*Aquí se crea el servicio de paginación*/
 @Injectable({
   providedIn: 'root'
 })
@@ -65,18 +66,9 @@ export class ApiService {
   public sendGetRequest(){
     // Limitación de 5 objetos, pero al pulsar en los botones
     return this.httpClient.get(this.SERVER_URL, {  params: new HttpParams({fromString: "_page=1&_limit=5"}), observe: "response"}).pipe(retry(3), catchError(this.handleError), tap(res => {
-      //Para el debug
-      //console.log(res.headers.get('Link'));
       this.parseLinkHeader(res.headers.get('Link'));
     }));
   }
-
-  //Conseguir que imprima el objeto desde el id de la url
-  /*sendGetRequestProduct(id){
-    return this.httpClient.get(this.SERVER_URL, {  params: new HttpParams({fromString: "/"+id}), observe: "response"}).pipe(retry(3), catchError(this.handleError), tap(res => {
-      this.parseLinkHeader(res.headers.get('Link'));
-    }));
-  }*/
 
   public sendGetRequestToUrl(url: string){  
     return this.httpClient.get(url, { observe: "response"}).pipe(retry(3), 			

@@ -1,3 +1,5 @@
+<!--Componente home, página de Inicio-->
+<!--Aquí se listan todos los producto de la base de datos (JSON)-->
 <div style="padding: 13px;">
     <mat-spinner *ngIf="products.length === 0"></mat-spinner>
     <mat-card *ngFor="let product of products" style="margin-top:10px;">
@@ -16,7 +18,7 @@
             <img style="height:100%; width: 100%;" src="{{ product.imageUrl }}" />
         </mat-card-content>
         <mat-card-actions>
-      <button (click)="comprar(product)" mat-button> Comprar producto</button>
+      <button (click)="comprar(product)" mat-button> Ver producto</button>
     </mat-card-actions>
     </mat-card>
 </div>
