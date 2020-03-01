@@ -22,52 +22,52 @@
     "quantity": 2
   }, {
     "id": 4,
-    "name": "Intelligent Metal Chicken",
-    "description": "Veritatis qui velit distinctio. Omnis sit aut tempore fuga non.",
-    "price": "62.00",
-    "imageUrl": "https://source.unsplash.com/1600x900/?product",
-    "quantity": 87447
+    "name": "Toyota Supra MKIV",
+    "description": "Coche marca Toyota, modelo Supra MK IV, año 2000, 210.000km.",
+    "price": "32.999,99",
+    "imageUrl": "assets/images/supra.jpg",
+    "quantity": 2
   }, {
     "id": 5,
-    "name": "Fantastic Granite Keyboard",
-    "description": "Est et architecto veniam adipisci odio et. Ratione sunt voluptatem mollitia veniam qui labore.",
-    "price": "394.00",
-    "imageUrl": "https://source.unsplash.com/1600x900/?product",
-    "quantity": 86974
+    "name": "Nissan Skyline R34",
+    "description": "Coche marca Nissan, modelo Skyline R34, año 1997, 290.000km.",
+    "price": "59.999,99",
+    "imageUrl": "assets/images/r34.jpg",
+    "quantity": 1
   }, {
     "id": 6,
-    "name": "Handcrafted Wooden Ball",
-    "description": "Autem aliquid assumenda nulla expedita. Quidem id sapiente veniam.",
-    "price": "649.00",
-    "imageUrl": "https://source.unsplash.com/1600x900/?product",
-    "quantity": 55274
+    "name": "Mazda RX7 VeilSide",
+    "description": "Coche marca Mazda, modelo RX7 VeilSide, año 2001, 189.000km.",
+    "price": "38.000,99",
+    "imageUrl": "assets/images/veilside.jpg",
+    "quantity": 1
   }, {
     "id": 7,
-    "name": "Tasty Frozen Chips",
-    "description": "Sit neque iste deleniti qui. Porro aperiam quisquam.",
-    "price": "41.00",
-    "imageUrl": "https://source.unsplash.com/1600x900/?product",
-    "quantity": 8043
+    "name": "Audi Quattro 1986",
+    "description": "Coche marca Audi, modelo Quattro, año 1986, 330.000km.",
+    "price": "24.999,99",
+    "imageUrl": "assets/images/quattro.jpg",
+    "quantity": 2
   }, {
     "id": 8,
-    "name": "Licensed Soft Salad",
-    "description": "Iusto rerum suscipit. Asperiores praesentium recusandae alias magni est. Natus cumque omnis temporibus animi ratione expedita et similique voluptatem. Illo doloremque optio a et possimus mollitia.",
-    "price": "279.00",
-    "imageUrl": "https://source.unsplash.com/1600x900/?product",
-    "quantity": 56622
+    "name": "Porsche 911 Turbo 1989 (Black Bird)",
+    "description": "Coche marca Porsche, modelo 911 Turbo, año 1989, 305.000km.",
+    "price": "59.999,99",
+    "imageUrl": "assets/images/911.jpg",
+    "quantity": 1
   }, {
     "id": 9,
-    "name": "Unbranded Frozen Shoes",
-    "description": "Et sint minima sunt facilis ipsum nesciunt culpa. Est atque magnam unde repellendus quia. Est earum quibusdam culpa voluptas dolorem. Rerum aut tempora repellendus velit dolore esse. Dolor vitae delectus commodi consequatur animi.",
-    "price": "599.00",
-    "imageUrl": "https://source.unsplash.com/1600x900/?product",
-    "quantity": 72192
+    "name": "Ford Sierra RS Cosworth 1987",
+    "description": "Coche marca Ford, modelo Sierra RS Cosworth, año 1987, 400.000km.",
+    "price": "44.999,99",
+    "imageUrl": "assets/images/sierra.jpg",
+    "quantity": 2
   }, {
     "id": 10,
-    "name": "Small Fresh Keyboard",
-    "description": "Quidem at blanditiis qui id non non at doloribus. Nulla accusamus doloremque in veniam. Et nihil pariatur voluptas labore numquam et laudantium fugit. Illo sit dolorem explicabo ipsam commodi. Cum earum necessitatibus tenetur explicabo numquam animi voluptas.",
-    "price": "440.00",
-    "imageUrl": "https://source.unsplash.com/1600x900/?product",
-    "quantity": 60016
+    "name": "Honda Civic Type R EK9",
+    "description": "Coche marca Honda, modelo Civic Type R EK9, año 1991, 280.000km.",
+    "price": "19.999,99",
+    "imageUrl": "assets/images/civic.jpeg",
+    "quantity": 3
   }]
 }
